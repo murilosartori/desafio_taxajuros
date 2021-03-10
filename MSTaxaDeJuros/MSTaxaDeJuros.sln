@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service", "1 - Service", "{7DFACDBD-EF53-433E-B89C-3272FA613E3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{9E5E001E-DB97-4AF4-AA81-0F9B77D06895}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repository", "3 - Repository", "{16AC37ED-B471-4CCA-9D35-C9402B0B9D17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{4BDA34C7-996E-4090-B459-A693AD15E925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainTaxaDeJuros", "DomainTaxaDeJuros\DomainTaxaDeJuros.csproj", "{F38EC608-D204-42B6-8DE1-A2939D57773A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryTaxaDeJuros", "RepositoryTaxaDeJuros\RepositoryTaxaDeJuros.csproj", "{1468397E-505A-4CF1-9544-A3DA3AA7A2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationTaxaDeJuros", "ApplicationTaxaDeJuros\ApplicationTaxaDeJuros.csproj", "{9C4D1C44-68BF-4DC7-BABC-552F656A92A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTaxaDeJuros", "ServiceTaxaDeJuros\ServiceTaxaDeJuros.csproj", "{9E12919A-279F-4A80-AD77-372850CBFE76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F38EC608-D204-42B6-8DE1-A2939D57773A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38EC608-D204-42B6-8DE1-A2939D57773A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38EC608-D204-42B6-8DE1-A2939D57773A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38EC608-D204-42B6-8DE1-A2939D57773A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1468397E-505A-4CF1-9544-A3DA3AA7A2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1468397E-505A-4CF1-9544-A3DA3AA7A2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1468397E-505A-4CF1-9544-A3DA3AA7A2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1468397E-505A-4CF1-9544-A3DA3AA7A2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4D1C44-68BF-4DC7-BABC-552F656A92A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4D1C44-68BF-4DC7-BABC-552F656A92A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4D1C44-68BF-4DC7-BABC-552F656A92A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4D1C44-68BF-4DC7-BABC-552F656A92A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E12919A-279F-4A80-AD77-372850CBFE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E12919A-279F-4A80-AD77-372850CBFE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E12919A-279F-4A80-AD77-372850CBFE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E12919A-279F-4A80-AD77-372850CBFE76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F38EC608-D204-42B6-8DE1-A2939D57773A} = {4BDA34C7-996E-4090-B459-A693AD15E925}
+		{1468397E-505A-4CF1-9544-A3DA3AA7A2CF} = {16AC37ED-B471-4CCA-9D35-C9402B0B9D17}
+		{9C4D1C44-68BF-4DC7-BABC-552F656A92A7} = {9E5E001E-DB97-4AF4-AA81-0F9B77D06895}
+		{9E12919A-279F-4A80-AD77-372850CBFE76} = {7DFACDBD-EF53-433E-B89C-3272FA613E3A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F4CD000-ED8A-4500-ACD9-C8C87EF2B7E7}
+	EndGlobalSection
+EndGlobal
