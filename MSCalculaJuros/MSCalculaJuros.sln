@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service", "1 - Service", "{7A5335F8-0CBA-41A9-A199-B38D020AA917}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{B616B610-6B62-424D-B014-0537E6352A01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repository", "3 - Repository", "{AEF3E54B-3E33-4BB2-AACF-738A48DE7AB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{9C321393-3EB0-417D-B398-D52FBCB946B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{6F2C091F-DAD8-46DE-9A14-5AAD899422B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainCalculaJuros", "DomainCalculaJuros\DomainCalculaJuros.csproj", "{CC3BF3CB-3F91-4E33-90A5-01BCF0AB351E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryCalculaJuros", "RepositoryCalculaJuros\RepositoryCalculaJuros.csproj", "{E9F960A3-A1E1-47C0-8334-D8AEA2159F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCalculaJuros", "ApplicationCalculaJuros\ApplicationCalculaJuros.csproj", "{D21F502E-9379-4622-A140-A4E51D547169}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCalculaJuros", "ServiceCalculaJuros\ServiceCalculaJuros.csproj", "{FAC8D27F-F037-45F6-A617-AC0B17CCE36B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC3BF3CB-3F91-4E33-90A5-01BCF0AB351E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3BF3CB-3F91-4E33-90A5-01BCF0AB351E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3BF3CB-3F91-4E33-90A5-01BCF0AB351E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3BF3CB-3F91-4E33-90A5-01BCF0AB351E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F960A3-A1E1-47C0-8334-D8AEA2159F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F960A3-A1E1-47C0-8334-D8AEA2159F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F960A3-A1E1-47C0-8334-D8AEA2159F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F960A3-A1E1-47C0-8334-D8AEA2159F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21F502E-9379-4622-A140-A4E51D547169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21F502E-9379-4622-A140-A4E51D547169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21F502E-9379-4622-A140-A4E51D547169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21F502E-9379-4622-A140-A4E51D547169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC8D27F-F037-45F6-A617-AC0B17CCE36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC8D27F-F037-45F6-A617-AC0B17CCE36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC8D27F-F037-45F6-A617-AC0B17CCE36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC8D27F-F037-45F6-A617-AC0B17CCE36B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC3BF3CB-3F91-4E33-90A5-01BCF0AB351E} = {9C321393-3EB0-417D-B398-D52FBCB946B7}
+		{E9F960A3-A1E1-47C0-8334-D8AEA2159F62} = {AEF3E54B-3E33-4BB2-AACF-738A48DE7AB0}
+		{D21F502E-9379-4622-A140-A4E51D547169} = {B616B610-6B62-424D-B014-0537E6352A01}
+		{FAC8D27F-F037-45F6-A617-AC0B17CCE36B} = {7A5335F8-0CBA-41A9-A199-B38D020AA917}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {356ECC4C-B791-4B54-88F4-103189FAAC23}
+	EndGlobalSection
+EndGlobal

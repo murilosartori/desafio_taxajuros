@@ -9,7 +9,7 @@ namespace RepositoryTaxaDeJuros
         {
             return new TaxaJuros
             {
-                valorTaxaJuros = Convert.ToDecimal(0.01)
+                valorTaxaJuros = 0.01M
             };
         } 
     }
