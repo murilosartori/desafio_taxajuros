@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCalculaJuros", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCalculaJuros", "ServiceCalculaJuros\ServiceCalculaJuros.csproj", "{FAC8D27F-F037-45F6-A617-AC0B17CCE36B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCalculaJuros", "TestCalculaJuros\TestCalculaJuros.csproj", "{C758BD73-9518-48AB-AB35-32ABA4A0DDFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{FAC8D27F-F037-45F6-A617-AC0B17CCE36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAC8D27F-F037-45F6-A617-AC0B17CCE36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAC8D27F-F037-45F6-A617-AC0B17CCE36B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C758BD73-9518-48AB-AB35-32ABA4A0DDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C758BD73-9518-48AB-AB35-32ABA4A0DDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C758BD73-9518-48AB-AB35-32ABA4A0DDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C758BD73-9518-48AB-AB35-32ABA4A0DDFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{E9F960A3-A1E1-47C0-8334-D8AEA2159F62} = {AEF3E54B-3E33-4BB2-AACF-738A48DE7AB0}
 		{D21F502E-9379-4622-A140-A4E51D547169} = {B616B610-6B62-424D-B014-0537E6352A01}
 		{FAC8D27F-F037-45F6-A617-AC0B17CCE36B} = {7A5335F8-0CBA-41A9-A199-B38D020AA917}
+		{C758BD73-9518-48AB-AB35-32ABA4A0DDFC} = {6F2C091F-DAD8-46DE-9A14-5AAD899422B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {356ECC4C-B791-4B54-88F4-103189FAAC23}

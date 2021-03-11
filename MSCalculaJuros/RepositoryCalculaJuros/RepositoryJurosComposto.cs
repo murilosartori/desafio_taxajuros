@@ -7,7 +7,7 @@ namespace RepositoryCalculaJuros
 {
     public class RepositoryJurosComposto
     {
-        public static CalculaJuros CalculaJurosComposto(decimal valorInicial, int tempo)
+        public CalculaJuros CalculaJurosComposto(decimal valorInicial, int tempo)
         {
             CalculaJuros jurosComposto = new CalculaJuros();
             dynamic response = JsonConvert.DeserializeObject<dynamic>(new RepositoryTaxaJuros().GetTaxaJuros().Content);
