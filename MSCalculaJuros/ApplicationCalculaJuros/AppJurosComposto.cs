@@ -14,7 +14,21 @@ namespace ApplicationCalculaJuros
 
         public CalculaJuros CalculaJurosComposto(decimal valorInicial, int tempo)
         {
-            return RepositoryJurosComposto.CalculaJurosComposto(valorInicial, tempo);
+            try
+            {
+                if (valorInicial != 0 && tempo != 0)
+                {
+                    return repository.CalculaJurosComposto(valorInicial, tempo);
+                }
+                else
+                {
+                    throw new Exception("Informe valores validos para calcular o juros.");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ocorreu um erro. " + ex.Message);
+            }
         }
     }
 }
